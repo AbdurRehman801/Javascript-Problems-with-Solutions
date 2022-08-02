@@ -420,7 +420,7 @@
 // var i = 0;
 // while (i < scores.length) {
 //   if (input == scores[i]) {
-//     var copyarr = scores.slice(0, [i+1]);
+//     var copyarr = scores.slice(0, [i + 1]);
 //     alert(copyarr);
 //   }
 //   i++;
@@ -456,6 +456,7 @@
 //   document.write([i] - 0.5, "<br>");
 //   i-= 0.5;
 // }
+
 
 // 23. The even/odd reporter
 // Write a loop that will iterate from 0 to 20. For each iteration, it
@@ -503,6 +504,7 @@
 // }
 // document.write(str)
 
+ 
 // 26. Write a program to create the following patterns in your
 // browser. Take number of lines as an input.
 
@@ -523,16 +525,16 @@
 // var input = prompt("How many stars u want to pattern");
 // var str = "";
 // var i = 0;
-// while(i<=input){
+// while (i <= input) {
 //   var j = 0;
-//   while(j<i){
+//   while (j < i) {
 //     str += "*";
-//     j++
+//     j++;
 //   }
-//   str += "<br>"
-//   i++
+//   str += "<br>";
+//   i++;
 // }
-// document.write(str)
+// document.write(str);
 
 // var i = 0;
 // var n = prompt("How many stars u want pattern");
@@ -547,4 +549,3 @@
 //   i++;
 // }
 // document.write(str)
-

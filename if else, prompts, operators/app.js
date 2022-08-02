@@ -342,6 +342,8 @@
 // var secondInput = prompt("Type any Noun");
 // if (isNaN(firstInput)) {
 //   alert("Please Type only numbers in first input");
-// } else {
-//   alert(`${firstInput} ${secondInput}`);
+// }else if(firstInput > 1){
+//     alert(`${firstInput} ${secondInput}s`)
+// }else{
+//     alert(`${firstInput} ${secondInput}`)
 // }
