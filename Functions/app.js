@@ -12,7 +12,7 @@
 // 2. Write a function that displays current date & time in your
 // browser.
 
-// var dates = new Date;
+// var dates = new Date();
 // function getdate(dates){
 //     document.write(`Today is ${dates}`)
 // }

@@ -5,6 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Events</title>
+    <style>
+      .main-modal {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+        z-index: 3;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+        color: #fff;
+      }
+      .child-modal {
+        padding: 32px;
+        width: 900px;
+        margin: 0 auto;
+        background-color: #fff;
+        position: relative;
+      }
+    </style>
   </head>
   <body>
     <!-- <form action="" onsubmit="submission()">
@@ -134,6 +156,79 @@
     </p>
     <button id="increa" onclick="increamentFunction()">+</button>
     <button id="decrea" onclick="decreamentFunction()">-</button> -->
+
+    <!-- <div>
+      <label for="fname">First Name</label>
+      <input type="text" name="" id="fname" />
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" />
+      <label for="class">Class</label>
+      <input type="number" id="class" />
+      <button onclick="adding()">Add</button>
+    </div> -->
+    <!-- 
+    <table border="1" id="table">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Class</th>
+        <th>Delete</th>
+        <th>Edit</th>
+      </tr>
+    </table> -->
+    <!-- <img
+      src="5.jpg"
+      alt=""
+      height="300"
+      width="300"
+      onclick="firstFunction()"
+    />
+    <img
+      src="6.jpg"
+      alt=""
+      height="300"
+      width="300"
+      onclick="secondFunction()"
+    />
+    <img
+      src="7.jpg"
+      alt=""
+      height="300"
+      width="300"
+      onclick="thirdFunction()"
+    />
+    <img
+      src="9.jpg"
+      alt=""
+      height="300"
+      width="300"
+      onclick="fourthFunction()"
+    />
+
+    <div class="main-modal" id="modal-1">
+      <div class="child-modal">
+        <span style="font-size: 40px; color: #000; position: absolute; right: -40px; top: 0; cursor: pointer;" onclick="closeFunction1()">X</span>
+        <img src="5.jpg" alt="" width="100%" >
+      </div>
+    </div>
+    <div class="main-modal" id="modal-2">
+      <div class="child-modal">
+        <span style="font-size: 40px; color: #000; position: absolute; right: -40px; top: 0; cursor: pointer;" onclick="closeFunction2()">X</span>
+        <img src="6.jpg" alt="" width="100%" >
+      </div>
+    </div>
+    <div class="main-modal" id="modal-3">
+      <div class="child-modal">
+        <span style="font-size: 40px; color: #000; position: absolute; right: -40px; top: 0; cursor: pointer;" onclick="closeFunction3()">X</span>
+        <img src="7.jpg" alt="" width="100%" >
+      </div>
+    </div>
+    <div class="main-modal" id="modal-4">
+      <div class="child-modal">
+        <span style="font-size: 40px; color: #000; position: absolute; right: -40px; top: 0; cursor: pointer;" onclick="closeFunction4()">X</span>
+        <img src="9.jpg" alt="" width="100%" >
+      </div>
+    </div> -->
     <script src="app.js"></script>
   </body>
 </html>

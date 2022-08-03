@@ -451,9 +451,9 @@
 
 // var input = prompt("Write the number in positive");
 // var i = input;
-// while (i >= input.length) {
+// while (i >= 0) {
 //   console.log(i);
-//   document.write([i] - 0.5, "<br>");
+//   document.write([i], "<br>");
 //   i-= 0.5;
 // }
 

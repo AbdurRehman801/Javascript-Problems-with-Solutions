@@ -104,3 +104,89 @@
 //   el.style.fontSize = fontSize - 10 + "px";
 // }
 
+// 3. In previous assignment you have created a tabular data
+// using javascript. Let’s modify that. Create a form which
+// takes student’s details and show each student detail in
+// table. Each row of table must contain a delete button and
+// an edit button. On click on delete button entire row should
+// be deleted. On click on edit button, a hidden form will
+// appear with the values of that row.
+// function adding() {
+//   var table = document.getElementById("table");
+//   newRow = table.insertRow(table.length);
+//   cell1 = newRow.insertCell(0);
+//   cell2 = newRow.insertCell(1);
+//   cell3 = newRow.insertCell(2);
+//   cell4 = newRow.insertCell(3);
+//   cell5 = newRow.insertCell(4);
+//   var fname = document.getElementById("fname").value;
+//   var lname = document.getElementById("lname").value;
+//   var classes = document.getElementById("class").value;
+//   removeButton = "<button>Remove</button>";
+//   editButton = "<button>Edit</button>";
+//   cell1.innerHTML = fname;
+//   cell2.innerHTML = lname;
+//   cell3.innerHTML = classes;
+//   cell4.innerHTML = removeButton;
+//   cell5.innerHTML = editButton;
+//   editing();
+//   deletion();
+// }
+
+// function editing() {
+//   table = document.getElementById("table");
+//   for (var i = 0; i < table.rows.length; i++) {
+//     table.rows[i].cells[4].onclick = function (e) {
+//       var data = e.path[2];
+//       document.getElementById("fname").value = data.cells[0].innerHTML;
+//       document.getElementById("lname").value = data.cells[1].innerHTML;
+//       document.getElementById("class").value = data.cells[2].innerHTML;
+//     };
+//   }
+// }
+// editing();
+// function deletion() {
+//   var index,
+//     table = document.getElementById("table");
+//   for (var i = 1; i < table.rows.length; i++) {
+//     table.rows[i].cells[3].onclick = function () {
+//       index = this.parentElement.rowIndex;
+//       table.deleteRow(index);
+//     };
+//   }
+// }
+// deletion();
+
+// function firstFunction(){
+//   var a = document.getElementById("modal-1");
+//   a.style.display = "block";
+//   a.style
+// }
+// function secondFunction(){
+//   var a = document.getElementById("modal-2");
+//   a.style.display = "block";
+// }
+// function thirdFunction(){
+//   var a = document.getElementById("modal-3");
+//   a.style.display = "block";
+// }
+// function fourthFunction(){
+//   var a = document.getElementById("modal-4");
+//   a.style.display = "block";
+// }
+// function closeFunction1(){
+//   var b = document.getElementById("modal-1");
+//   b.style.display = "none";
+// }
+// function closeFunction2(){
+//   var b = document.getElementById("modal-2");
+//   b.style.display = "none";
+// }
+// function closeFunction3(){
+//   var b = document.getElementById("modal-3");
+//   b.style.display = "none";
+// }
+// function closeFunction4(){
+//   var b = document.getElementById("modal-4");
+//   b.style.display = "none";
+// }
